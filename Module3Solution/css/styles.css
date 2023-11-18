@@ -1,0 +1,86 @@
+body{
+	font-size: 20px;
+}
+.container {
+    width: 100%;
+  }
+/** HEADER **/
+#header-nav {
+  background-color: #686868;
+  border-radius: 0;
+  border: 3px solid #000000;
+  padding: 0px;
+  margin: 0px;
+}
+.navbar-brand{
+  padding-top: 14px;
+}
+.navbar-brand h1 { /* food,llc */ 
+  color: black;
+  font-size: 1.5em;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+  #nav-list {
+  font-size: 1.1em ;
+  font-weight: bold;
+  margin-top: 2px;
+  margin-bottom:2px;
+  color: black;
+  text-align: center;
+  background: white;
+  position: relative;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+
+ .navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+#main-content.container{
+  background: white;
+}
+
+ #title {
+  color: black;
+  background: white;
+  font-size: 2em;
+  margin-top: 24px;
+  margin-bottom: 30px;
+  line-height: .75;
+  }
+  /* HOME PAGE */
+
+#Chicken, #Beef, #Sushi {
+  height: 400px;
+  width: 100%;
+  margin-bottom: 30px;
+  background:#7e7e7e ;
+  opacity: .9;
+  position: relative;
+  border: 2px solid ;
+  background-position: center;
+    height: auto;
+}
+#Chicken span, #Beef span, #Sushi span {
+  position: absolute;
+  text-align: center;
+  margin-top: 5px;
+  width: 100%;
+  font-size: 1.25em;
+  color: #100F0F;
+  text-shadow: 1px #222;
+}
+#menu p{
+ color: black ;
+ margin-top:30px ;
+ text-align: left;
+ padding: 5px 10px 5px 10px;
+}
+.col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
